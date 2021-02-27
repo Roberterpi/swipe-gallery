@@ -20,12 +20,16 @@ img {
 }
 .main-nav {
   margin: 0;
-  padding: 15px;
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .brand  {
   color: white;
   margin: 0;
   cursor: grab;
-  z-index: 10;
+  cursor: -webkit-grab;
   font-size: 100px;
 }
