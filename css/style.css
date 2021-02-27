@@ -3,6 +3,8 @@
 }
 body {
   background-color: black;
+  padding: 0;
+  margin: 0;
 }
 .swiper-slide {
   text-align: center;
@@ -15,4 +17,15 @@ img {
 }
 :root {
   --swiper-theme-color: silver;
+}
+.main-nav {
+  margin: 0;
+  padding: 15px;
+}
+.brand  {
+  color: white;
+  margin: 0;
+  cursor: grab;
+  z-index: 0;
+  font-size: 100px;
 }
