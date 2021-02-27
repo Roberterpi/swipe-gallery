@@ -12,7 +12,7 @@ new Swiper (".swiper-container", {
 
 const { styler, spring, listen, pointer, value } = window.popmotion;
 
-const ball = document.querySelector('.box');
+const ball = document.querySelector('.brand');
 const divStyler = styler(ball);
 const ballXY = value({ x: 0, y: 0 }, divStyler.set);
 
