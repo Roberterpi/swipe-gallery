@@ -27,9 +27,13 @@ img {
   align-items: center;
 }
 .brand  {
-  color: white;
+  color: #342e2e;
   margin: 0;
   cursor: grab;
   cursor: -webkit-grab;
-  font-size: 100px;
+  font-size: 40px;
+  padding: .5rem;
+}
+.brand:hover {
+  color: red;
 }
